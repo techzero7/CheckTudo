@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+.sv-root-modern {
+  --sv-primary-color: theme('colors.purple.600');
+  --sv-secondary-color: theme('colors.blue.600');
+}
+
+.sv-btn {
+  @apply rounded-md !important;
+}
+
+.sv-footer {
+  @apply flex justify-end gap-4 !important;
+}
+
+.sv-container-modern {
+  @apply shadow-none !important;
+}
